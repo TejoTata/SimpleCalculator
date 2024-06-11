@@ -1,4 +1,4 @@
- *, *::before, *,*::after{
+ *, *::before, *::after{
     box-sizing: border-box;
     font-family:Gotham Rounded, sans-serif;
     font-weight: normal;
@@ -8,7 +8,7 @@
  body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, hsl(295, 83%, 47%), #cb4b06);
+    background: linear-gradient(to right, hsl(59, 83%, 47%), #0665cb);
     
  }
  .calculator-grid{
@@ -17,7 +17,7 @@
     align-content: center;
     min-height: 100vh;
     grid-template-columns: repeat(4,100px);
-    grid-template-rows: minmax(120px auto) repeat(5, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
  }
 
  .calculator-grid > button {
